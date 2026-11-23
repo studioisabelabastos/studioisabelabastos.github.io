@@ -1,0 +1,23 @@
+# Evita publicar por engano arquivos do sistema, do editor ou com segredos.
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Segredos e configurações locais (nunca devem ir para o repositório)
+.env
+.env.*
+*.pem
+*.key
+.claude/settings.local.json
+
+# Arquivos temporários e de verificação
+*.log
+node_modules/
+.taste-skill/
+shots/
